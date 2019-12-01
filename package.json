@@ -1,0 +1,17 @@
+{
+  "name": "node-worm",
+  "version": "0.0.1",
+  "description": "node worm",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "serve": "node ./src/index.js"
+  },
+  "author": "jelon_zhang",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "nightmare": "^3.0.2"
+  }
+}
